@@ -440,10 +440,6 @@ def render_sidebar():
         if st.sidebar.button("🏠 Dashboard", use_container_width=True):
             st.session_state["current_page"] = "dashboard"
             st.rerun()
-            
-        if st.sidebar.button("👤 My Profile", use_container_width=True):
-            st.session_state["current_page"] = "profile"
-            st.rerun()
 
         if st.sidebar.button("🧠 Resume Builder", use_container_width=True):
            st.session_state["current_page"] = "resume_builder"
@@ -452,6 +448,10 @@ def render_sidebar():
         if st.sidebar.button("🔗 LinkedIn Analyzer", use_container_width=True):
            st.session_state["current_page"] = "linkedin_analyzer"
            st.rerun()
+
+        if st.sidebar.button("👤 My Profile", use_container_width=True):
+            st.session_state["current_page"] = "profile"
+            st.rerun()   
 
            
         st.sidebar.markdown("---")
