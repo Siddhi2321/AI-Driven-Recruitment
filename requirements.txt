@@ -1,0 +1,9 @@
+streamlit
+openai
+python-dotenv
+requests
+pandas
+scikit-learn
+pypdf
+docxtpl
+docx2pdf
